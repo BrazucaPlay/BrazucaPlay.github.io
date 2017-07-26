@@ -51,9 +51,13 @@
   </head>
   <body>
     
-    <script language="javascript">
-      function click() {if (event.button==2||event.button==3) { oncontextmenu='return false'; }}document.onmousedown=clickdocument.oncontextmenu = new Function("return false;")
-    </script>
+<script language="JavaScript">
+    function protegercodigo() {
+    if (event.button==2||event.button==3){
+        alert('Codigo protegido!');}
+    }
+    document.onmousedown=protegercodigo
+</script>
 
     <div class="container">
 
