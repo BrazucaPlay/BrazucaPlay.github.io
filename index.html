@@ -50,6 +50,10 @@
     </style>
   </head>
   <body>
+    
+    <script language="javascript">
+      function click() {if (event.button==2||event.button==3) { oncontextmenu='return false'; }}document.onmousedown=clickdocument.oncontextmenu = new Function("return false;")
+    </script>
 
     <div class="container">
 
